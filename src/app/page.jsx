@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-background container mx-auto">
+    <div className="min-h-screen bg-background ">
       <header className="bg-primary text-primary-foreground py-6">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-bold text-center">Govt. Graphic Arts Institute</h1>
@@ -17,7 +17,7 @@ export default function HomePage() {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-40 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-40 gap-5 mb-8">
           <div className="flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4">Welcome to the Library Management System</h2>
             <p className="text-muted-foreground mb-6">
@@ -33,8 +33,8 @@ export default function HomePage() {
               </Button>
             </div>
           </div>
-          <div className="rounded-lg overflow-hidden ">
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6YfEyBDKsVuGo41NpNTO5jolmL1KyfJ6KOg&s' alt="logo" className=" h-64 object-cover" />
+          <div className="rounded-lg overflow-hidden shadow ">
+            <img src='https://i.ibb.co.com/nsqd59WM/all-student.jpg' alt="logo" className=" w-full h-64 object-cover" />
           </div>
         </div>
 

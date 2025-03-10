@@ -28,11 +28,8 @@ export default function ReturnBookPage() {
 
   return (
     <div className="flex min-h-screen bg-muted/30">
-      <div className="hidden md:flex flex-col w-64 bg-background border-r p-6">
-        <div className="flex items-center mb-8">
-          <BookOpen className="h-6 w-6 text-primary mr-2" />
-          <h2 className="text-xl font-bold">LMS</h2>
-        </div>
+      <div className="">
+       
         <SidebarNav />
       </div>
       <div className="flex-1">
